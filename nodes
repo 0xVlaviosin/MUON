@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function logo {
-  bash <(curl -s https://raw.githubusercontent.com/sorkand1/nodes/main/welcome.sh)
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/logo)
 }
 
 function line {
@@ -19,7 +19,7 @@ function main_tools {
 }
 
 function docker {
-  bash <(curl -s https://raw.githubusercontent.com/sorkand1/tools/main/install_docker.sh)
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/DOCKER/main/DOCKER)
 }
 
 function setup_compose {
