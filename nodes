@@ -47,4 +47,5 @@ echo "Start"
 docker_start
 line
 function logo {
-  bash <(curl -s bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last))
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
+}
