@@ -46,3 +46,5 @@ line
 echo "Start"
 docker_start
 line
+function logo {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/logo)
