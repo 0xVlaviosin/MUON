@@ -31,7 +31,7 @@ function docker_start {
 }
 
 
-function {
+function txt {
 bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
 }
 colors
