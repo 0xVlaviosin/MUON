@@ -37,7 +37,7 @@ bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
 
 colors
 line
-sleep 1 && logo && sleep 1 
+sleep 1 && logo && sleep 3 
 line
 echo "Installing tools and docker"
 line
@@ -50,7 +50,7 @@ setup_compose
 line
 echo "Start"
 docker_start
-sleep 1 && txt && sleep 1 
+sleep 1 && txt && sleep 2 
 line
 
 
