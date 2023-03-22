@@ -19,7 +19,7 @@ function main_tools {
 }
 
 function docker {
-  bash <(curl -s https://raw.githubusercontent.com/cpiteam/DOCKER/main/DOCKER)
+  bash <(curl -s https://raw.githubusercontent.com/sorkand1/tools/main/install_docker.sh)
 }
 
 function setup_compose {
