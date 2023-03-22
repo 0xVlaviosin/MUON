@@ -30,6 +30,9 @@ function docker_start {
   docker-compose up -d
 }
 
+function logo2 {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
+}
 colors
 line
 logo
@@ -45,9 +48,7 @@ setup_compose
 line
 echo "Start"
 docker_start
-function logo {
-  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
-}
+
 line
 
 
