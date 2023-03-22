@@ -34,9 +34,11 @@ function docker_start {
 function txt {
 bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
 }
+
 colors
 line
 logo
+txt
 line
 echo "Installing tools and docker"
 line
