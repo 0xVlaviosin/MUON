@@ -1,1 +1,22 @@
+#!/bin/bash
 
+function logo {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/logo)
+}
+
+
+
+
+
+function aboba {
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/MUON/main/update%20tools)
+}
+
+function txt {
+bash <(curl -s https://raw.githubusercontent.com/cpiteam/logo/main/Logo%20last)
+}
+
+
+logo
+aboba
+txt
