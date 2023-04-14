@@ -8,12 +8,6 @@ function line {
   echo "-----------------------------------------------------------------------------"
 }
 
-function colors {
-  GREEN="\e[1m\e[32m"
-  RED="\e[1m\e[39m"
-  NORMAL="\e[0m"
-}
-
 function main_tools {
   bash <(curl -s https://raw.githubusercontent.com/sorkand1/tools/main/main.sh)
 }
