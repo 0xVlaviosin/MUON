@@ -9,11 +9,11 @@ function line {
 }
 
 function main_tools {
-  bash <(curl -s https://raw.githubusercontent.com/sorkand1/tools/main/main.sh)
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/MUON/main/main_tools)
 }
 
 function docker {
-  bash <(curl -s https://raw.githubusercontent.com/sorkand1/tools/main/install_docker.sh)
+  bash <(curl -s https://raw.githubusercontent.com/cpiteam/MUON/main/docker)
 }
 
 function setup_compose {
